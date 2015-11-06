@@ -1,3 +1,11 @@
+//In this activity, we have created a Log Out button and a simple welcome text message
+// to show with the current username.
+// The Log Out button will clear the current logged in user cache data on disk.
+// We used “ParseUser. getCurrentUser()” and called “currentUser.getUsername()” to retrieve
+// the current logged username.
+// Then display the username on a textview together with the welcome message.
+
+
 package com.victor.m.parselogintutorial;
 
 /**
