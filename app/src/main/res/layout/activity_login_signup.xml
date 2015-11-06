@@ -22,7 +22,7 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_login_signup"/>
+    <include layout="@layout/loginsignup"/>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
