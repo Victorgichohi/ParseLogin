@@ -4,6 +4,8 @@
       <w>loginbutton</w>
       <w>passwordtxt</w>
       <w>signup</w>
+      <w>txtpassword</w>
+      <w>txtusername</w>
       <w>usernametxt</w>
     </words>
   </dictionary>
