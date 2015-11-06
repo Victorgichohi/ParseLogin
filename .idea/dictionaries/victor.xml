@@ -2,11 +2,14 @@
   <dictionary name="victor">
     <words>
       <w>loginbutton</w>
+      <w>parselogintutorial</w>
       <w>passwordtxt</w>
       <w>signup</w>
       <w>textview</w>
       <w>txtpassword</w>
+      <w>txtuser</w>
       <w>txtusername</w>
+      <w>txtwelcome</w>
       <w>usernametxt</w>
     </words>
   </dictionary>
