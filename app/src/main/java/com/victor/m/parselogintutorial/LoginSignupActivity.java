@@ -1,3 +1,9 @@
+//In this activity we created two buttons that allow users to either login or signup.
+// Both username and password entered by a user are captured using an EditText.
+// On login button click will sent the username and password to Parse.com for verification and
+// if the user exists will show a toast message and display a welcome screen.
+// On signup button click will check to make sure both of the username and password are not empty
+// and on successful signup will store both username and password in Parse.com.
 package com.victor.m.parselogintutorial;
 
 import android.app.Activity;
