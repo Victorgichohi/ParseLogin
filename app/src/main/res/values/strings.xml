@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ParseLoginTutorial</string>
     <string name="action_settings">Settings</string>
@@ -6,4 +7,10 @@
     <string name="Password">Password</string>
     <string name="LoginBtn">LoginBtn</string>
     <string name="SignupBtn">SignupBtn</string>
+    <string name="LogoutBtn">Log Out</string>
+    <string name="Welcome">Welcome!</string>
+
+
+
+
 </resources>
