@@ -1,7 +1,10 @@
 <component name="ProjectDictionaryState">
   <dictionary name="victor">
     <words>
+      <w>loginbutton</w>
+      <w>passwordtxt</w>
       <w>signup</w>
+      <w>usernametxt</w>
     </words>
   </dictionary>
 </component>
