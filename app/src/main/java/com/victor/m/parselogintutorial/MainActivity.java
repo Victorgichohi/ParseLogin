@@ -1,6 +1,13 @@
+//In this activity, we try to determine whether the current user is an anonymous user
+// and if the user has previously signed up and logged into the application,
+// the user will be automatically converted into a regular user.
+// Every Signup and login methods will cache the user data on disk.
+// Caching user’s data on disk will prevent a regular user to log in every time they open your application.
+// To clear a regular user cached data will require calling “ParseUser. logOut ();” and an anonymous
+// users will be sent to the LoginSignupActivity.java.
 package com.victor.m.parselogintutorial;
 
-import android.support.v7.app.AppCompatActivity;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
