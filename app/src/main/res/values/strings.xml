@@ -10,5 +10,5 @@
     <string name="LogoutBtn">Log Out</string>
     <string name="Welcome">Welcome!</string>
     <string name="Park">Proceed To Park</string>
-
+    <string name="IntroApp">myIntro</string>
 </resources>
