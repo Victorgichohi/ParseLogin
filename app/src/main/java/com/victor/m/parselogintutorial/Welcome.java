@@ -12,6 +12,7 @@ package com.victor.m.parselogintutorial;
  * Created by victor on 11/6/15.
  */
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -24,6 +25,7 @@ public class Welcome extends Activity {
 
     // Declare Variable
     Button logout;
+    Button park;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -52,6 +54,19 @@ public class Welcome extends Activity {
             public void onClick(View arg0) {
                 // Logout current user
                 ParseUser.logOut();
+                finish();
+            }
+
+
+        });
+
+        park = (Button) findViewById(R.id.Details);
+
+        park.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent p = new Intent(Welcome.this,MainList.class);
+                startActivity(p);
                 finish();
             }
         });

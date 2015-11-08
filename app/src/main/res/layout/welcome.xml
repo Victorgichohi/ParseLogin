@@ -26,5 +26,13 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="@string/LogoutBtn" />
+    <Button
+        android:id="@+id/Details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Park"
+        android:layout_below="@+id/logout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"/>
 
 </RelativeLayout>
