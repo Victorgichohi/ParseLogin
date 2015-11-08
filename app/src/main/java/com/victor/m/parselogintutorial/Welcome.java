@@ -11,14 +11,14 @@ package com.victor.m.parselogintutorial;
 /**
  * Created by victor on 11/6/15.
  */
-import com.parse.ParseUser;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.parse.ParseUser;
 
 public class Welcome extends Activity {
 
@@ -47,7 +47,7 @@ public class Welcome extends Activity {
         logout = (Button) findViewById(R.id.logout);
 
         // Logout Button Click Listener
-        logout.setOnClickListener(new OnClickListener() {
+        logout.setOnClickListener( new OnClickListener() {
 
             public void onClick(View arg0) {
                 // Logout current user
