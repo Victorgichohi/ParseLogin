@@ -32,4 +32,11 @@
     <string name="equitel">Equitel</string>
     <string name="payment">Please choose Your Payment Mode</string>
     <string name="title_activity_timer">Timer</string>
+    <string name="firstname">firstname</string>
+    <string name="lastname">lastname</string>
+    <string name="phonenum">phonenumber</string>
+    <string name="idnum">ID number</string>
+    <string name="emailadd">Email Address</string>
+    <string name="pin">Enter pin</string>
+    <string name="signup">Sign Up</string>
 </resources>

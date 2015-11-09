@@ -1,6 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:padding="10dip" >
+    <TextView
+        android:id="@+id/firstname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/firstname" />
 
-</LinearLayout>
+    <EditText
+        android:id="@+id/firstnametext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstname"
+        android:inputType="text" />
+    <TextView
+        android:id="@+id/lastname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstnametext"
+        android:text="@string/lastname" />
+
+    <EditText
+        android:id="@+id/lastnametext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lastname"
+        android:inputType="text" />
+    <TextView
+        android:id="@+id/phonenumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lastnametext"
+        android:text="@string/phonenum" />
+
+    <EditText
+        android:id="@+id/phonenumbertext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phonenumber"
+        android:inputType="number" />
+    <TextView
+        android:id="@+id/idnumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phonenumbertext"
+        android:text="@string/idnum" />
+
+    <EditText
+        android:id="@+id/idnumbertext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idnumber"
+        android:inputType="number" />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idnumbertext"
+        android:text="@string/emailadd" />
+
+    <EditText
+        android:id="@+id/emailtext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:inputType="textEmailAddress" />
+    <TextView
+        android:id="@+id/pin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailtext"
+        android:text="@string/pin" />
+
+    <EditText
+        android:id="@+id/pintext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pin"
+        android:inputType="numberPassword" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pintext"
+        android:text="@string/signup"/>
+
+
+
+</RelativeLayout>

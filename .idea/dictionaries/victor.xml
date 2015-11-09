@@ -5,8 +5,17 @@
       <w>boya</w>
       <w>centralbusiness</w>
       <w>cezl</w>
+      <w>emailadd</w>
+      <w>emailtext</w>
       <w>equitel</w>
+      <w>firstname</w>
+      <w>firstnametext</w>
       <w>grouptwo</w>
+      <w>idnum</w>
+      <w>idnumber</w>
+      <w>idnumbertext</w>
+      <w>lastname</w>
+      <w>lastnametext</w>
       <w>loginbutton</w>
       <w>loginsignup</w>
       <w>mpesa</w>
@@ -19,6 +28,10 @@
       <w>paymentbttons</w>
       <w>paymentbuttons</w>
       <w>paymentmethod</w>
+      <w>phonenum</w>
+      <w>phonenumber</w>
+      <w>phonenumbertext</w>
+      <w>pintext</w>
       <w>signup</w>
       <w>struser</w>
       <w>textview</w>
