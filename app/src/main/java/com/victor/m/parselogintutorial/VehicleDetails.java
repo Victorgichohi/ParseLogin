@@ -3,6 +3,7 @@ package com.victor.m.parselogintutorial;
 /**
  * Created by victor on 11/9/15.
  */
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.View;
@@ -91,26 +92,17 @@ public class VehicleDetails extends Activity {
 
             button=(Button) findViewById(R.id.chooseBtn);
 
-            button.setOnClickListener(new
-
-            OnClickListener() {
-
+            button.setOnClickListener(new OnClickListener() {
                 @Override
-                public void onClick (View v){
-                    int selectedId = radioGroup.getCheckedRadioButtonId();
-
-                    // find which radioButton is checked by id
-                    if (selectedId == day.getId()) {
-                        textView.setText("You chose 'day' option");
-                    } else if (selectedId == week.getId()) {
-                        textView.setText("You chose 'week' option");
-                    } else {
-                        textView.setText("You chose 'month' option");
-                    }
+                public void onClick(View v) {
+                    Intent paymentmethod=new Intent(VehicleDetails.this,PaymentMethod.class);
+                        startActivity(paymentmethod);
+                        finish();
                 }
-            }
+            });
 
-            );
+
+
         }
 
     }
