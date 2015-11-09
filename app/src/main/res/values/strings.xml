@@ -25,4 +25,6 @@
     <string name="saloon">saloon</string>
     <string name="lorry">Lorry</string>
     <string name="canter">canter</string>
+    <string name="accountnum">Account Number</string>
+    <string name="pay">Pay</string>
 </resources>

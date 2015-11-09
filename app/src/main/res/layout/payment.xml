@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parent linear layout with vertical orientation -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/payment"
+        android:text="Please choose Your Payment Mode"/>
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/payment">
+    <RadioButton
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:text="Mpesa"
+        android:id="@+id/mpesa"
+        android:checked="true"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Equitel"
+        android:id="@+id/equitel"
+        android:checked="false"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paypal"
+        android:id="@+id/paypal"
+        android:checked="false"/>
+</RadioGroup>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/account"
+        android:inputType="number"
+        android:hint="@string/accountnum"
+        android:clickable="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/paybutton"
+        android:text="@string/pay"/>
+
+</LinearLayout>
