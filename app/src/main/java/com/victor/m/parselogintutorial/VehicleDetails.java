@@ -89,7 +89,7 @@ public class VehicleDetails extends Activity {
 
             textView=(TextView) findViewById(R.id.text);
 
-            button=(Button) findViewById(R.id.button);
+            button=(Button) findViewById(R.id.chooseBtn);
 
             button.setOnClickListener(new
 
