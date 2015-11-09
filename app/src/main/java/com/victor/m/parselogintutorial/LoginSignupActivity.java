@@ -39,7 +39,7 @@ public class LoginSignupActivity extends Activity {
 
         // Locate Buttons in main.xml
         loginbutton = (Button) findViewById(R.id.login);
-        signup = (Button) findViewById(R.id.signup);
+
 
         // Login Button Click Listener
         loginbutton.setOnClickListener(new OnClickListener() {
@@ -73,7 +73,15 @@ public class LoginSignupActivity extends Activity {
                         });
             }
         });
-
+        signup = (Button) findViewById(R.id.signup);
+        signup.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent tosignup=new Intent(LoginSignupActivity.this,signup.class);
+                startActivity(tosignup);
+                finish();
+            }
+        });
 
     }
 }
