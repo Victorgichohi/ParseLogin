@@ -34,7 +34,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/lastnametext"
-        android:text="user name" />
+        android:text="@string/username" />
 
     <EditText
         android:id="@+id/usernametext"
@@ -53,7 +53,7 @@
         android:id="@+id/phonenumbertext"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/usernametext"
+        android:layout_below="@+id/phonenumber"
         android:inputType="number" />
     <TextView
         android:id="@+id/idnumber"

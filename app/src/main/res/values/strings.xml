@@ -39,4 +39,5 @@
     <string name="emailadd">Email Address</string>
     <string name="pin">Enter pin</string>
     <string name="signup">Sign Up</string>
+    <string name="username">user name</string>
 </resources>
