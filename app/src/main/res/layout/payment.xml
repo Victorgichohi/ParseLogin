@@ -11,31 +11,32 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/payment"
-        android:text="Please choose Your Payment Mode"/>
+        android:text="@string/payment"/>
 <RadioGroup
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:id="@+id/payment">
+    android:id="@+id/paymentbuttons"
+    >
     <RadioButton
         android:layout_width="141dp"
         android:layout_height="wrap_content"
-        android:text="Mpesa"
+        android:text="@string/mpesa"
         android:id="@+id/mpesa"
-        android:checked="true"/>
+       />
 
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Equitel"
+        android:text="@string/equitel"
         android:id="@+id/equitel"
-        android:checked="false"/>
+        />
 
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Paypal"
+        android:text="@string/paypal"
         android:id="@+id/paypal"
-        android:checked="false"/>
+        />
 </RadioGroup>
     <EditText
         android:layout_width="300dp"
