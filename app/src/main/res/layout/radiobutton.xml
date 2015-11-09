@@ -22,6 +22,8 @@
         android:id="@+id/myRadioGroup"
         android:background="#abf234"
         android:checkedButton="@+id/sound" >
+    <!--state which button is checked by default-->
+
 
         <RadioButton
             android:layout_width="wrap_content"
