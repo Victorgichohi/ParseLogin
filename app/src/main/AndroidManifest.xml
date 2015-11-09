@@ -36,6 +36,9 @@
         </activity>
         <activity android:name=".Welcome" >
         </activity>
+        <activity android:name=".VehicleDetails">
+
+        </activity>
 
     </application>
 
