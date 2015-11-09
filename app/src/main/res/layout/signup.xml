@@ -85,6 +85,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/pintext"
+        android:id="@+id/mainsignup"
         android:text="@string/signup"/>
 
 
