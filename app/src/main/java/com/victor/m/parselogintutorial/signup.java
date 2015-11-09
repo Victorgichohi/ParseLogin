@@ -78,6 +78,8 @@ public class signup extends Activity {
                                         "successfully Signed up",
                                         Toast.LENGTH_LONG).show();
                                 Intent intent=new Intent(signup.this,Welcome.class);
+                                startActivity(intent);
+                                finish();
                             }else {
                                 Toast.makeText(getApplicationContext(),
                                         "error signing up",
