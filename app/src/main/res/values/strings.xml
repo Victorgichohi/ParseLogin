@@ -12,8 +12,8 @@
     <string name="Park">Proceed To Park</string>
     <string name="IntroApp">myIntro</string>
     <string name="ChoiceText">Choose one of the radio buttons below</string>
-    <string name="Sound">Sound</string>
-    <string name="Vibration">Vibration</string>
-    <string name="Silent">Silent</string>
+    <string name="Day">Day</string>
+    <string name="Week">Week (10% off)</string>
+    <string name="Monthly">Monthly (20% off)</string>
     <string name="Choose">Choose</string>
 </resources>

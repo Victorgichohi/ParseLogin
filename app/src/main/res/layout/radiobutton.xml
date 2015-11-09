@@ -21,29 +21,31 @@
         android:layout_below="@+id/text"
         android:id="@+id/myRadioGroup"
         android:background="#abf234"
-        android:checkedButton="@+id/sound" >
+        android:checkedButton="@+id/day" >
     <!--state which button is checked by default-->
 
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/sound"
-            android:text="@string/Sound" />
+            android:id="@+id/day"
+            android:text="@string/Day" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/vibration"
-            android:text="@string/Vibration" />
+            android:id="@+id/week"
+            android:text="@string/Week" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/silent"
-            android:text="@string/Silent" />
+            android:id="@+id/month"
+            android:text="@string/Monthly" />
 
     </RadioGroup>
+
+    <!--closest Area-->
 
     <Button
         android:layout_width="wrap_content"

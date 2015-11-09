@@ -17,7 +17,7 @@ import android.widget.Toast;
 public class VehicleDetails extends Activity {
 
     private RadioGroup radioGroup;
-    private RadioButton sound, vibration, silent;
+    private RadioButton day, week, month;
     private Button button;
     private TextView textView;
 
@@ -33,23 +33,23 @@ public class VehicleDetails extends Activity {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 // find which radio button is selected
-                if(checkedId == R.id.silent) {
-                    Toast.makeText(getApplicationContext(), "choice: Silent",
+                if(checkedId == R.id.day) {
+                    Toast.makeText(getApplicationContext(), "choice: Day",
                             Toast.LENGTH_SHORT).show();
-                } else if(checkedId == R.id.sound) {
-                    Toast.makeText(getApplicationContext(), "choice: Sound",
+                } else if(checkedId == R.id.week) {
+                    Toast.makeText(getApplicationContext(), "choice: Week",
                             Toast.LENGTH_SHORT).show();
                 } else {
-                    Toast.makeText(getApplicationContext(), "choice: Vibration",
+                    Toast.makeText(getApplicationContext(), "choice: Monthly",
                             Toast.LENGTH_SHORT).show();
                 }
             }
 
         });
 
-        sound = (RadioButton) findViewById(R.id.sound);
-        vibration = (RadioButton) findViewById(R.id.vibration);
-        silent = (RadioButton) findViewById(R.id.silent);
+        day = (RadioButton) findViewById(R.id.day);
+        week = (RadioButton) findViewById(R.id.week);
+        month = (RadioButton) findViewById(R.id.month);
         textView = (TextView) findViewById(R.id.text);
 
         button = (Button)findViewById(R.id.chooseBtn);
@@ -60,12 +60,12 @@ public class VehicleDetails extends Activity {
                 int selectedId = radioGroup.getCheckedRadioButtonId();
 
                 // find which radioButton is checked by id
-                if(selectedId == sound.getId()) {
-                    textView.setText("You chose 'Sound' option");
-                } else if(selectedId == vibration.getId()) {
-                    textView.setText("You chose 'Vibration' option");
+                if(selectedId == day.getId()) {
+                    textView.setText("You chose 'day' option");
+                } else if(selectedId == week.getId()) {
+                    textView.setText("You chose 'week' option");
                 } else {
-                    textView.setText("You chose 'Silent' option");
+                    textView.setText("You chose 'month' option");
                 }
             }
         });
