@@ -30,17 +30,30 @@
         android:layout_below="@+id/lastname"
         android:inputType="text" />
     <TextView
-        android:id="@+id/phonenumber"
+        android:id="@+id/username"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/lastnametext"
+        android:text="user name" />
+
+    <EditText
+        android:id="@+id/usernametext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:inputType="text" />
+    <TextView
+        android:id="@+id/phonenumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernametext"
         android:text="@string/phonenum" />
 
     <EditText
         android:id="@+id/phonenumbertext"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/phonenumber"
+        android:layout_below="@+id/usernametext"
         android:inputType="number" />
     <TextView
         android:id="@+id/idnumber"
