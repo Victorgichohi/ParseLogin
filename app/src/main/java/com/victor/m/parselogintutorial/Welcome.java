@@ -65,7 +65,7 @@ public class Welcome extends Activity {
         park.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent p = new Intent(Welcome.this,MainList.class);
+                Intent p = new Intent(Welcome.this,VehicleDetails.class);
                 startActivity(p);
                 finish();
             }
