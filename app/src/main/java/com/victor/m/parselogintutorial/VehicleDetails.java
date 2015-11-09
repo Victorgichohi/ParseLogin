@@ -17,7 +17,8 @@ import android.widget.Toast;
 public class VehicleDetails extends Activity {
 
     private RadioGroup radioGroup;
-    private RadioButton day, week, month;
+
+    private RadioButton day, week, month, cbd, ngongroad, westlands,saloon,lorry,canter;
     private Button button;
     private TextView textView;
 
@@ -33,42 +34,83 @@ public class VehicleDetails extends Activity {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 // find which radio button is selected
-                if(checkedId == R.id.day) {
+                if (checkedId == R.id.day) {
                     Toast.makeText(getApplicationContext(), "choice: Day",
                             Toast.LENGTH_SHORT).show();
-                } else if(checkedId == R.id.week) {
+                } else if (checkedId == R.id.week) {
                     Toast.makeText(getApplicationContext(), "choice: Week",
                             Toast.LENGTH_SHORT).show();
-                } else {
-                    Toast.makeText(getApplicationContext(), "choice: Monthly",
+                } else if (checkedId == R.id.cbd) {
+                    Toast.makeText(getApplicationContext(), "choice: cbd",
+                            Toast.LENGTH_SHORT).show();
+                }else if (checkedId == R.id.ngongroad) {
+                    Toast.makeText(getApplicationContext(), "choice: ngongroad",
+                            Toast.LENGTH_SHORT).show();
+                }else if (checkedId == R.id.westlands) {
+                    Toast.makeText(getApplicationContext(), "choice:westlands",
+                            Toast.LENGTH_SHORT).show();
+                }else if (checkedId == R.id.saloon) {
+                    Toast.makeText(getApplicationContext(), "choice: saloon",
+                            Toast.LENGTH_SHORT).show();
+                }else if (checkedId == R.id.lorry) {
+                    Toast.makeText(getApplicationContext(), "choice: lorry",
+                            Toast.LENGTH_SHORT).show();
+                }else if (checkedId == R.id.Canter) {
+                    Toast.makeText(getApplicationContext(), "choice: canter",
                             Toast.LENGTH_SHORT).show();
                 }
+                else{
+                        Toast.makeText(getApplicationContext(), "choice: Monthly",
+                                Toast.LENGTH_SHORT).show();
+                    }
+                }
+
             }
 
-        });
+            );
 
-        day = (RadioButton) findViewById(R.id.day);
-        week = (RadioButton) findViewById(R.id.week);
-        month = (RadioButton) findViewById(R.id.month);
-        textView = (TextView) findViewById(R.id.text);
+            day=(RadioButton) findViewById(R.id.day);
 
-        button = (Button)findViewById(R.id.chooseBtn);
-        button.setOnClickListener(new OnClickListener() {
+            week=(RadioButton) findViewById(R.id.week);
 
-            @Override
-            public void onClick(View v) {
-                int selectedId = radioGroup.getCheckedRadioButtonId();
+            month=(RadioButton) findViewById(R.id.month);
 
-                // find which radioButton is checked by id
-                if(selectedId == day.getId()) {
-                    textView.setText("You chose 'day' option");
-                } else if(selectedId == week.getId()) {
-                    textView.setText("You chose 'week' option");
-                } else {
-                    textView.setText("You chose 'month' option");
+            cbd=(RadioButton) findViewById(R.id.cbd);
+
+            ngongroad=(RadioButton) findViewById(R.id.ngongroad);
+
+            westlands=(RadioButton) findViewById(R.id.westlands);
+
+            saloon=(RadioButton) findViewById(R.id.saloon);
+
+            lorry=(RadioButton) findViewById(R.id.lorry);
+
+           canter=(RadioButton) findViewById(R.id.Canter);
+
+            textView=(TextView) findViewById(R.id.text);
+
+            button=(Button) findViewById(R.id.button);
+
+            button.setOnClickListener(new
+
+            OnClickListener() {
+
+                @Override
+                public void onClick (View v){
+                    int selectedId = radioGroup.getCheckedRadioButtonId();
+
+                    // find which radioButton is checked by id
+                    if (selectedId == day.getId()) {
+                        textView.setText("You chose 'day' option");
+                    } else if (selectedId == week.getId()) {
+                        textView.setText("You chose 'week' option");
+                    } else {
+                        textView.setText("You chose 'month' option");
+                    }
                 }
             }
-        });
-    }
 
-}
+            );
+        }
+
+    }

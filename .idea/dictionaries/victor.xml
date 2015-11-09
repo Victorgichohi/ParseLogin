@@ -2,10 +2,13 @@
   <dictionary name="victor">
     <words>
       <w>boya</w>
+      <w>centralbusiness</w>
       <w>cezl</w>
+      <w>grouptwo</w>
       <w>loginbutton</w>
       <w>loginsignup</w>
       <w>ngong</w>
+      <w>ngongroad</w>
       <w>nyby</w>
       <w>parselogintutorial</w>
       <w>passwordtxt</w>
@@ -17,7 +20,9 @@
       <w>txtusername</w>
       <w>txtwelcome</w>
       <w>usernametxt</w>
+      <w>vehiclecategory</w>
       <w>vehicletype</w>
+      <w>westlands</w>
       <w>xdcp</w>
     </words>
   </dictionary>

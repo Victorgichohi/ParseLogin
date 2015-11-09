@@ -11,9 +11,18 @@
     <string name="Welcome">Welcome!</string>
     <string name="Park">Proceed To Park</string>
     <string name="IntroApp">myIntro</string>
-    <string name="ChoiceText">Choose one of the radio buttons below</string>
+    <string name="ChoiceText1">Select Parking Ticket</string>
     <string name="Day">Day</string>
     <string name="Week">Week (10% off)</string>
     <string name="Monthly">Monthly (20% off)</string>
     <string name="Choose">Choose</string>
+    <string name="cbd">CBD</string>
+    <string name="westlands">westlands</string>
+    <string name="ngongroad">ngongroad</string>
+    <string name="area">Select Your closest area</string>
+    <string name="centralbusiness">CBD</string>
+    <string name="vehiclecategory">select your vehicle category</string>
+    <string name="saloon">saloon</string>
+    <string name="lorry">Lorry</string>
+    <string name="canter">canter</string>
 </resources>
