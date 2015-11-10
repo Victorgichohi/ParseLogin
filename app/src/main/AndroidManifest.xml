@@ -29,23 +29,25 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".LoginSignupActivity" >
-        </activity>
-        <activity android:name=".signup">
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
         </activity>
-        <activity android:name=".Welcome" >
+        <activity android:name=".LoginSignupActivity"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         </activity>
-        <activity android:name=".VehicleDetails" >
+        <activity android:name=".signup"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
         </activity>
-        <activity android:name=".PaymentMethod">
+        <activity android:name=".Welcome"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity android:name=".VehicleDetails"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity android:name=".PaymentMethod"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
         </activity>
         <activity
