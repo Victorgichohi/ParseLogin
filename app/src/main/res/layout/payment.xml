@@ -7,10 +7,11 @@
     android:layout_height="match_parent">
 
 
-    <EditText
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/payment"
+        android:textSize="20sp"
         android:text="@string/payment"/>
 <RadioGroup
     android:layout_width="wrap_content"
@@ -22,12 +23,14 @@
         android:layout_width="141dp"
         android:layout_height="wrap_content"
         android:text="@string/mpesa"
+        android:layout_marginTop="15dp"
         android:id="@+id/mpesa"
        />
 
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:text="@string/equitel"
         android:id="@+id/equitel"
         />
@@ -35,6 +38,7 @@
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:text="@string/paypal"
         android:id="@+id/paypal"
         />
@@ -44,12 +48,15 @@
         android:layout_height="wrap_content"
         android:id="@+id/account"
         android:inputType="number"
+        android:layout_marginTop="30dp"
+        android:paddingTop="20dp"
         android:hint="@string/accountnum"
         android:clickable="true"
         />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:id="@+id/paybutton"
         android:text="@string/pay"/>
 
