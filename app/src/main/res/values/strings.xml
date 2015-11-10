@@ -14,7 +14,7 @@
     <string name="Day">Day</string>
     <string name="Week">Week (10% off)</string>
     <string name="Monthly">Monthly (20% off)</string>
-    <string name="Choose">Choose</string>
+    <string name="Choose">Proceed To pay</string>
     <string name="cbd">CBD</string>
     <string name="westlands">westlands</string>
     <string name="ngongroad">ngongroad</string>
@@ -39,4 +39,5 @@
     <string name="pin">Enter pin</string>
     <string name="signup">Sign Up</string>
     <string name="username">user name</string>
+    <string name="regNum">Vehicle Ragistration Number</string>
 </resources>
