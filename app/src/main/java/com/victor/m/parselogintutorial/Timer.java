@@ -12,20 +12,20 @@ import java.util.Date;
 public class Timer extends Activity {
 
     private TextView txtTimerDay, txtTimerHour, txtTimerMinute, txtTimerSecond;
-    private TextView tvEvent;
+
     private Handler handler;
     private Runnable runnable;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_timer);
 
         txtTimerDay = (TextView) findViewById(R.id.txtTimerDay);
         txtTimerHour = (TextView) findViewById(R.id.txtTimerHour);
         txtTimerMinute = (TextView) findViewById(R.id.txtTimerMinute);
         txtTimerSecond = (TextView) findViewById(R.id.txtTimerSecond);
-        tvEvent = (TextView) findViewById(R.id.tvhappyevent);
+
 
         countDownStart();
 
@@ -41,7 +41,7 @@ public class Timer extends Activity {
                     SimpleDateFormat dateFormat = new SimpleDateFormat(
                             "yyyy-MM-dd");
                     // Please here set your event date//YYYY-MM-DD
-                    Date futureDate = dateFormat.parse("2015-11-25");
+                    Date futureDate = dateFormat.parse("2015-11-11");
                     Date currentDate = new Date();
                     if (!currentDate.after(futureDate)) {
                         long diff = futureDate.getTime()
@@ -60,8 +60,7 @@ public class Timer extends Activity {
                         txtTimerSecond.setText(""
                                 + String.format("%02d", seconds));
                     } else {
-                        tvEvent.setVisibility(View.VISIBLE);
-                        tvEvent.setText("Start event now!");
+
                         textViewGone();
                     }
                 } catch (Exception e) {
