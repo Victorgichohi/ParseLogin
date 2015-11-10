@@ -58,13 +58,7 @@
             fab:menu_backgroundColor="#ccffffff"
             fab:menu_fab_label="Menu label">
 
-            <com.github.clans.fab.FloatingActionButton
-                android:id="@+id/fab4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
 
-                fab:fab_size="mini"
-                fab:fab_label="Home" />
 
             <com.github.clans.fab.FloatingActionButton
                 android:id="@+id/fab1"
@@ -72,23 +66,8 @@
                 android:layout_height="wrap_content"
 
                 fab:fab_size="mini"
-                fab:fab_label="Menu item 1" />
+                fab:fab_label="Logout" />
 
-            <com.github.clans.fab.FloatingActionButton
-                android:id="@+id/fab2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-
-                fab:fab_size="mini"
-                fab:fab_label="Menu item 2" />
-
-            <com.github.clans.fab.FloatingActionButton
-                android:id="@+id/fab3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-
-                fab:fab_size="mini"
-                fab:fab_label="hi" />
 
         </com.github.clans.fab.FloatingActionMenu>
     </FrameLayout>

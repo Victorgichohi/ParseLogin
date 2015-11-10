@@ -26,6 +26,11 @@ public class Welcome extends Activity {
     Button logout;
     Button park;
 
+    private com.github.clans.fab.FloatingActionButton fab1;
+
+
+
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,8 +71,26 @@ public class Welcome extends Activity {
         park.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent p = new Intent(Welcome.this,VehicleDetails.class);
+                Intent p = new Intent(Welcome.this, VehicleDetails.class);
                 startActivity(p);
+                finish();
+            }
+        });
+
+
+
+
+        fab1 =(com.github.clans.fab.FloatingActionButton)findViewById(R.id.fab1);
+
+
+
+
+        fab1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent m= new Intent(Welcome.this,LoginSignupActivity.class);
+                ParseUser.logOut();
+                startActivity(m);
                 finish();
             }
         });
