@@ -166,12 +166,19 @@
 
 
             <com.github.clans.fab.FloatingActionButton
-                android:id="@+id/fab2"
+                android:id="@+id/fab4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
                 fab:fab_size="mini"
                 fab:fab_label="Home" />
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/fab3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                fab:fab_size="mini"
+                fab:fab_label="pay For Another" />
 
 
         </com.github.clans.fab.FloatingActionMenu>

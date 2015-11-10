@@ -1,10 +1,13 @@
 package com.victor.m.parselogintutorial;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.TextView;
+
+import com.github.clans.fab.FloatingActionButton;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -15,6 +18,8 @@ public class Timer extends Activity {
 
     private Handler handler;
     private Runnable runnable;
+    private com.github.clans.fab.FloatingActionButton fab4;
+    private com.github.clans.fab.FloatingActionButton fab3;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -28,6 +33,26 @@ public class Timer extends Activity {
 
 
         countDownStart();
+
+        fab4= (FloatingActionButton) findViewById(R.id.fab4);
+        fab3= (FloatingActionButton) findViewById(R.id.fab3);
+
+        fab3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent tm1=new Intent(Timer.this,PaymentMethod.class);
+                startActivity(tm1);
+
+            }
+        });
+        fab4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent tm2 = new Intent(Timer.this,Welcome.class);
+                startActivity(tm2);
+
+            }
+        });
 
     }
 
