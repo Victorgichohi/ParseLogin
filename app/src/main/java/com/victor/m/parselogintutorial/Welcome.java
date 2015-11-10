@@ -28,7 +28,7 @@ public class Welcome extends Activity {
 
     private com.github.clans.fab.FloatingActionButton fab1;
 
-
+    private com.github.clans.fab.FloatingActionButton welcome2;
 
 
     @Override
@@ -94,6 +94,18 @@ public class Welcome extends Activity {
                 finish();
             }
         });
+
+        welcome2= (com.github.clans.fab.FloatingActionButton) findViewById(R.id.welcome2);
+
+        welcome2.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent welc2 = new Intent(Welcome.this,Timer.class);
+                startActivity(welc2);
+                finish();
+            }
+        });
+
     }
 }
 

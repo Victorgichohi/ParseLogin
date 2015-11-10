@@ -58,7 +58,13 @@
             fab:menu_backgroundColor="#ccffffff"
             fab:menu_fab_label="Menu label">
 
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/welcome2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
 
+                fab:fab_size="mini"
+                fab:fab_label="View Your Current Pay" />
 
             <com.github.clans.fab.FloatingActionButton
                 android:id="@+id/fab1"
