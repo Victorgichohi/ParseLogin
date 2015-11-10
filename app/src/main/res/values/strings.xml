@@ -9,7 +9,6 @@
     <string name="LogoutBtn">Log Out</string>
     <string name="Welcome">Welcome!</string>
     <string name="Park">Proceed To Park</string>
-    <string name="IntroApp">myIntro</string>
     <string name="ChoiceText1">Select Parking Ticket</string>
     <string name="Day">Day</string>
     <string name="Week">Week (10% off)</string>
